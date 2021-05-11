@@ -1,0 +1,26 @@
+{
+  "name": "mrmahdikarimi.ir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "postcss ./src/css/**/*.css -o ./public/css/app.css -w",
+    "build:css": "postcss ./src/css/app.css -o ./public/css/app.css",
+    "production:css": "NODE_ENV=production postcss ./src/css/app.css -o ./public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmahdi1997/mrmahdikarimi.ir.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmahdi1997/mrmahdikarimi.ir/issues"
+  },
+  "homepage": "https://github.com/kmahdi1997/mrmahdikarimi.ir#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
